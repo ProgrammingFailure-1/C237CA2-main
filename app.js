@@ -259,6 +259,7 @@ app.get('/deleteProduct/:id', (req, res) => {
     });
 });
 
+//Nicholas's Search Function
 app.get('/patient/:id', (req, res) => {
   const patientId = req.params.id;
 
